@@ -3,7 +3,7 @@ import numpy as np
 
 image = cv2.imread('data/images/mark.jpg')
 
-cv2.imshow('img', image) ## 넘파이로 불러와보림 'img'는 넘파이로 인듯?
+cv2.imshow('img', image) 
 
 # 선 그리기
 
