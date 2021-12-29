@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 cap = cv2.VideoCapture('data/videos/chaplin.mp4')
-## 비디오 파일 가져오는 클래스
+# 비디오 파일 가져오는 클래스
 
 if cap.isOpened() == False:
     print('Error opening video stream or file')
