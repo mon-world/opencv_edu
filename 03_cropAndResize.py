@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+# 이미지를 자르는 것을 crop 이라 함
+# 사이즈 조절을 resize 라고 함
+
+>>>>>>> b3c35418e82633b34a5328187e30d59fd6d3e1be
 import cv2
 
 # 1은 칼라 이미지, 0은 그레이스케일, -1은 알파채널포함한 이미지
@@ -15,7 +21,10 @@ scaleDown = cv2.resize( source, None, fx=scaleX, fy=scaleY, interpolation=cv2.IN
 # 원하는 비율대로 조정 가능
 # 이미지, x비율, y비율 순서
 # 확대 축소 했을 떄 픽셀 유실됨. interpolation으로 채움
+<<<<<<< HEAD
 
+=======
+>>>>>>> b3c35418e82633b34a5328187e30d59fd6d3e1be
 
 cv2.imshow('Original', source)
 cv2.imshow('Scaled Down', scaleDown)
@@ -26,7 +35,10 @@ scaleY = 1.6
 scaleUp = cv2.resize( source, None, fx=scaleX, fy=scaleY, interpolation=cv2.INTER_LINEAR) 
 
 # cv2.imshow('Scaled Down', scaleUp)
+<<<<<<< HEAD
 
+=======
+>>>>>>> b3c35418e82633b34a5328187e30d59fd6d3e1be
 # Crop : 내가 원하는 부분만 이미지를 자르는 것!
 # 넘파이를 슬라이싱 하는것과 같다!!
 
