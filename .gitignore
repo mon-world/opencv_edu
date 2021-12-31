@@ -1,8 +1,3 @@
-/06_videoRead.py
-/07_videoWrite.py
-/08_thresholding.py
-/09_dilate.py
-/10_erode.py
 /11_opening.py
 /12_closing.py
 /13_rotate.py
