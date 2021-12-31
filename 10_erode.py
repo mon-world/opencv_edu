@@ -15,7 +15,7 @@ cv2.imshow("original", image)
 dilationSize = 6
 
 element = cv2.getStructuringElement(cv2.MORPH_RECT, (2*dilationSize+1,2*dilationSize+1) )
-## 1.사각형으로 하련다. 2.커널사이즈
+## 1.사각형. 2.커널사이즈
 
 imageEroded = cv2.erode(image,element)
 
