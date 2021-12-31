@@ -1,3 +1,7 @@
+
+'''
+이미지 형태학적 변환 : 침식
+'''
 import cv2
 
 imageName = "data/images/truth.png"
