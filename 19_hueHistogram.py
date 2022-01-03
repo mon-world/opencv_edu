@@ -1,3 +1,10 @@
+'''
+HSV
+H : Hue 색상
+S : Saturation 채도
+V : Value 명도
+'''
+
 import cv2
 import numpy as np
 
